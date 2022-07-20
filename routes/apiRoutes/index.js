@@ -2,6 +2,7 @@ const path = require('path');
 const router = require('express').Router();
 const { createNewNote, validateNote } = require('../../lib/notes');
 const { notes } = require('../../db/db');
+const fs = require('fs');
 
 router.get('/notes', (req, res) => {
     // let results = notes
@@ -17,5 +18,12 @@ router.post('/notes', (req, res) => {
         res.json(note);
     }
 })
+
+// router.delete('/notes/:id', (req, res) => {
+//     updatedNotes = notes.filter((delNote) => delNote.id !== req.params.id);
+//     fs.writeFileSync(path.join(__dirname, '/db/db.json'),
+//         JSON.stringify(notes, null, 2)
+//     );
+// });
 
 module.exports = router;
