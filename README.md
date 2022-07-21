@@ -18,7 +18,7 @@
   Once the application is installed, along with node.js, use a terminal to navigate to the directory containing the server.js file and run <npm start>, which will initialize the server. In your browser, navigate to https://localhost:3001 to use the application.
 
   ## Example of Web Application Interface
-![Note Taker Application]((https://user-images.githubusercontent.com/100047895/180134477-6df7bf06-f201-4205-9779-494db6f0ba7f.png)
+![180134477-6df7bf06-f201-4205-9779-494db6f0ba7f](https://user-images.githubusercontent.com/100047895/180135115-19960196-b10e-4b58-bf7f-3bdf35a27b53.png)
 
    ## Questions?
   Reach out:
