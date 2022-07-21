@@ -24,7 +24,7 @@ router.post('/notes', (req, res) => {
 
 // delete route 
 router.delete('/notes/:id', (req, res) => {
-    // destructures while keep array; utf-8 avoids buffering (from Mac)
+    // destructures while keep array; utf-8 avoids buffering
     const { notes } = JSON.parse(fs.readFileSync(path.join(__dirname, '../../db/db.json'), 'utf-8'));
 
     // filters request object out of array
